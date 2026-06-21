@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "explanation_type",
+        "paper_name",
+        "word_count"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": " You are an expert AI researcher and technical writer.\n\nRead and analyze the research paper titled:\n\n**Paper Title:** {paper_name}\n\nCreate a \"{explanation_type}\" summary of approximately **{word_count} words**.\n\nRequirements:\n\n1. Explain the main problem the paper aims to solve.\n2. Describe the proposed methodology or architecture.\n3. Highlight the key innovations and contributions.\n4. Summarize the experiments, datasets, and evaluation metrics used.\n5. Present the most important results and findings.\n6. Explain why this paper is significant and its impact on the field.\n7. Use clear, accurate language appropriate for a {explanation_type} audience.\n8. Preserve important technical details, equations, model names, and terminology where relevant.\n9. Do not copy large portions of the paper verbatim; paraphrase and explain the concepts.\n10. Structure the response with the following sections:\n\n* Overview\n* Problem Statement\n* Proposed Approach\n* Key Contributions\n* Experimental Results\n* Limitations (if mentioned)\n* Impact and Applications\n* Conclusion\n\nEnsure the final summary is approximately {word_count} words and maintains technical accuracy.\n ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

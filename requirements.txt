@@ -1,0 +1,32 @@
+#langchain
+langchain
+langchain-core
+
+#google-langchain-intergration
+langchain-google-genai
+google-generativeai
+
+#hugging face integration
+transformers
+langchain-huggingface
+huggingface-hub
+
+#Environment setup
+python-dotenv
+
+#machine learning libs
+numpy
+scikit-learn
+
+#Creating user interfaces
+streamlit
+
+#vector store
+chromadb
+
+sentence-transformers
+
+torch
+
+
+
