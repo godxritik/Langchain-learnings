@@ -6,6 +6,9 @@ langchain-core
 langchain-google-genai
 google-generativeai
 
+#openai-langchain-integration
+langchain-openai
+
 #hugging face integration
 transformers
 langchain-huggingface
@@ -13,6 +16,9 @@ huggingface-hub
 
 #Environment setup
 python-dotenv
+
+#data validation
+pydantic
 
 #machine learning libs
 numpy
