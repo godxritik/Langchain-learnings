@@ -1,6 +1,7 @@
 #langchain
 langchain
 langchain-core
+langchain-community
 
 #google-langchain-intergration
 langchain-google-genai
@@ -34,5 +35,7 @@ sentence-transformers
 
 torch
 
+#pdf loader
+pypdf
 
 

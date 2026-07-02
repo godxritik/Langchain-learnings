@@ -1,0 +1,12 @@
+there are different type of pdf loader for different use cases.
+
+PyPDFLoader --> for simple plain text based pdfs
+
+PDFPlumberLoader -->  for pdfs with complex layouts, tables, and images
+
+UnstructuredPDFLoader or AmazonTextractPDFLoader --> for scanned pdfs or image based pdfs
+
+PyMuPDFLoader --> for pdfs with layout and image data
+
+UnstructuredPDFLoader --> use this for best structure extraction
+
