@@ -29,7 +29,7 @@ scikit-learn
 streamlit
 
 #vector store
-chromadb
+langchain-chroma
 
 sentence-transformers
 
@@ -39,3 +39,6 @@ torch
 pypdf
 
 
+#Text splitters
+langchain-text-splitters
+langchain-experimental
